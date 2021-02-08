@@ -26,6 +26,7 @@ class PrototypesController < ApplicationController
     @comments = @prototype.comments
   end
 
+
   def edit
   end
 
@@ -44,6 +45,8 @@ class PrototypesController < ApplicationController
       redirect_to root_path
     end
   end
+
+
 
   private
 
